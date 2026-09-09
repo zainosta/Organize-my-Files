@@ -74,29 +74,7 @@ graph TD
     U --> G(data.csv)
     V --> H(presentation.pptx)
 ```
-simple Example
-Before:
 
-text
-Documents/
-├── report.pdf
-├── photo.jpg
-├── notes.txt
-├── another.pdf
-└── organize_files.py   (the script)
-
-After running:
-
-text
-Documents/
-├── pdf/
-│   ├── report.pdf
-│   └── another.pdf
-├── jpg/
-│   └── photo.jpg
-├── txt/
-│   └── notes.txt
-└── organize_files.py   (still here)
 🛠️ How It Works
 The script:
 
