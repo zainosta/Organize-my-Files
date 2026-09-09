@@ -43,65 +43,42 @@ Here is a visual breakdown of exactly what happens when you run the script in a 
 Here is a visual breakdown of exactly what happens when you run the script in a messy directory.
 
 **Before (Chaos - files in a messy row):**
+## 🖼️ Real-World Example
 
 ```mermaid
 graph LR
-    A[📁 My Project Folder] --> B(report.pdf)
-    B --> C(profile_pic.jpg)
-    C --> D(budget_2026.xlsx)
-    D --> E(meeting_notes.txt)
-    E --> F(api_keys.json)
-    F --> G(main_script.py)
-    G --> H(background_music.mp3)
-    H --> I(tutorial_video.mp4)
-    I --> J(source_code.zip)
-    J --> K(customer_data.csv)
-    K --> L(team_slides.pptx)
-    L --> M(thumbnail.png)
-    M --> N(readme.md)
-    N --> O(style.css)
-    O --> P(script.js)
-    P --> Q(organize_files.py)
-    Q --> R(📁 Old_Projects)
+    A[📁 My Project] --> B(report.pdf)
+    B --> C(photo.jpg)
+    C --> D(budget.xlsx)
+    D --> E(notes.txt)
+    E --> F(script.py)
+    F --> G(data.csv)
+    G --> H(presentation.pptx)
+    H --> I(organize_files.py)
+    I --> J(📁 Old_Projects)
 ```
 
-**After (Clean & Sorted - folders in a row, files sorted inside):**
+**After (Clean & organized):**
 
 ```mermaid
 graph LR
-    A[📁 My Project Folder] --> P[📁 PDF]
+    A[📁 My Project] --> P[📁 PDF]
     P --> Q[📁 JPG]
     Q --> R[📁 XLSX]
     R --> S[📁 TXT]
-    S --> T[📁 JSON]
-    T --> U[📁 PY]
-    U --> V[📁 MP3]
-    V --> W[📁 MP4]
-    W --> X[📁 ZIP]
-    X --> Y[📁 CSV]
-    Y --> Z[📁 PPTX]
-    Z --> AA[📁 PNG]
-    AA --> AB[📁 MD]
-    AB --> AC[📁 CSS]
-    AC --> AD[📁 JS]
-    AD --> AE(organize_files.py)
-    AE --> AF(📁 Old_Projects)
+    S --> T[📁 PY]
+    T --> U[📁 CSV]
+    U --> V[📁 PPTX]
+    V --> W(organize_files.py)
+    W --> X(📁 Old_Projects)
 
     P --> B(report.pdf)
-    Q --> C(profile_pic.jpg)
-    R --> D(budget_2026.xlsx)
-    S --> E(meeting_notes.txt)
-    T --> F(api_keys.json)
-    U --> G(main_script.py)
-    V --> H(background_music.mp3)
-    W --> I(tutorial_video.mp4)
-    X --> J(source_code.zip)
-    Y --> K(customer_data.csv)
-    Z --> L(team_slides.pptx)
-    AA --> M(thumbnail.png)
-    AB --> N(readme.md)
-    AC --> O(style.css)
-    AD --> P(script.js)
+    Q --> C(photo.jpg)
+    R --> D(budget.xlsx)
+    S --> E(notes.txt)
+    T --> F(script.py)
+    U --> G(data.csv)
+    V --> H(presentation.pptx)
 ```
 simple Example
 Before:
