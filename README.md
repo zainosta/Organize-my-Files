@@ -98,7 +98,7 @@ graph LR
     AB --> N(readme.md)
     AC --> O(style.css)
     AD --> P(script.js)
-
+```
 simple Example
 Before:
 
