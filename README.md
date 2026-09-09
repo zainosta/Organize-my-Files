@@ -41,18 +41,12 @@ Here is a visual breakdown of exactly what happens when you run the script in a 
 
 ```mermaid
 graph LR
-    A[📁 My Project] --> B(report.pdf)
-    B --> C(photo.jpg)
-    C --> D(budget.xlsx)
-    D --> E(notes.txt)
-    E --> F(script.py)
-    F --> G(data.csv)
-    G --> H(presentation.pptx)
-    H --> I(organize_files.py)
-    I --> J(📁 Old_Projects)
+    A[📁 My Project] --> B[Files: .pdf .jpg .xlsx .txt .py .csv .pptx]
+    A --> C(organize_files.py)
+    A --> D(📁 Old_Projects)
 ```
 
-**After (Clean & organized):**
+**After (Clean & Organized):**
 
 ```mermaid
 graph LR
