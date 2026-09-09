@@ -40,25 +40,31 @@ Here is a visual breakdown of exactly what happens when you run the script in a 
 ## 🖼️ Real-World Example
 
 ```mermaid
-graph LR
-    A[📁 My Project] --> B[Files: .pdf .jpg .xlsx .txt .py .csv .pptx]
-    A --> C(organize_files.py)
-    A --> D(📁 Old_Projects)
+graph TD
+    A[📁 My Project Folder] --> B(report.pdf)
+    A --> C(photo.jpg)
+    A --> D(budget.xlsx)
+    A --> E(notes.txt)
+    A --> F(script.py)
+    A --> G(data.csv)
+    A --> H(presentation.pptx)
+    A --> I(organize_files.py)
+    A --> J(📁 Old_Projects)
 ```
 
-**After (Clean & Organized):**
+**After (Clean & Organized - folders on row 2, files inside them on row 3):**
 
 ```mermaid
-graph LR
-    A[📁 My Project] --> P[📁 PDF]
-    P --> Q[📁 JPG]
-    Q --> R[📁 XLSX]
-    R --> S[📁 TXT]
-    S --> T[📁 PY]
-    T --> U[📁 CSV]
-    U --> V[📁 PPTX]
-    V --> W(organize_files.py)
-    W --> X(📁 Old_Projects)
+graph TD
+    A[📁 My Project Folder] --> P[📁 PDF]
+    A --> Q[📁 JPG]
+    A --> R[📁 XLSX]
+    A --> S[📁 TXT]
+    A --> T[📁 PY]
+    A --> U[📁 CSV]
+    A --> V[📁 PPTX]
+    A --> W(organize_files.py)
+    A --> X(📁 Old_Projects)
 
     P --> B(report.pdf)
     Q --> C(photo.jpg)
