@@ -38,50 +38,54 @@ That’s it! All files (except the script itself and subfolders) will be sorted 
 
 Here is a visual breakdown of exactly what happens when you run the script in a messy directory.
 
-**Before (Chaos - files everywhere):**
+## 🖼️ Real-World Example
+
+Here is a visual breakdown of exactly what happens when you run the script in a messy directory.
+
+**Before (Chaos - files in a messy row):**
 
 ```mermaid
 graph LR
     A[📁 My Project Folder] --> B(report.pdf)
-    A --> C(profile_pic.jpg)
-    A --> D(budget_2026.xlsx)
-    A --> E(meeting_notes.txt)
-    A --> F(api_keys.json)
-    A --> G(main_script.py)
-    A --> H(background_music.mp3)
-    A --> I(tutorial_video.mp4)
-    A --> J(source_code.zip)
-    A --> K(customer_data.csv)
-    A --> L(team_slides.pptx)
-    A --> M(thumbnail.png)
-    A --> N(readme.md)
-    A --> O(style.css)
-    A --> P(script.js)
-    A --> Q(organize_files.py)
-    A --> R(📁 Old_Projects)
+    B --> C(profile_pic.jpg)
+    C --> D(budget_2026.xlsx)
+    D --> E(meeting_notes.txt)
+    E --> F(api_keys.json)
+    F --> G(main_script.py)
+    G --> H(background_music.mp3)
+    H --> I(tutorial_video.mp4)
+    I --> J(source_code.zip)
+    J --> K(customer_data.csv)
+    K --> L(team_slides.pptx)
+    L --> M(thumbnail.png)
+    M --> N(readme.md)
+    N --> O(style.css)
+    O --> P(script.js)
+    P --> Q(organize_files.py)
+    Q --> R(📁 Old_Projects)
 ```
 
-**After (Clean & Sorted - script and folders stay put):**
+**After (Clean & Sorted - folders in a row, files sorted inside):**
 
 ```mermaid
 graph LR
     A[📁 My Project Folder] --> P[📁 PDF]
-    A --> Q[📁 JPG]
-    A --> R[📁 XLSX]
-    A --> S[📁 TXT]
-    A --> T[📁 JSON]
-    A --> U[📁 PY]
-    A --> V[📁 MP3]
-    A --> W[📁 MP4]
-    A --> X[📁 ZIP]
-    A --> Y[📁 CSV]
-    A --> Z[📁 PPTX]
-    A --> AA[📁 PNG]
-    A --> AB[📁 MD]
-    A --> AC[📁 CSS]
-    A --> AD[📁 JS]
-    A --> AE(organize_files.py)
-    A --> AF(📁 Old_Projects)
+    P --> Q[📁 JPG]
+    Q --> R[📁 XLSX]
+    R --> S[📁 TXT]
+    S --> T[📁 JSON]
+    T --> U[📁 PY]
+    U --> V[📁 MP3]
+    V --> W[📁 MP4]
+    W --> X[📁 ZIP]
+    X --> Y[📁 CSV]
+    Y --> Z[📁 PPTX]
+    Z --> AA[📁 PNG]
+    AA --> AB[📁 MD]
+    AB --> AC[📁 CSS]
+    AC --> AD[📁 JS]
+    AD --> AE(organize_files.py)
+    AE --> AF(📁 Old_Projects)
 
     P --> B(report.pdf)
     Q --> C(profile_pic.jpg)
