@@ -122,7 +122,7 @@ Your support motivates me to keep improving this tool.
 | Method | Details |
 | :--- | :--- |
 | 💰 **USDT (TRC20)** | `TVmL1R1wYXiM8wP2NfJk5hwQYVMtoJhHU5` |
-| 🆔 **Binance Pay ID** | `500857050` |
+| 🆔 **Binance ID** | `500857050` |
 
 > ⚠️ **Important:** Please make sure to select the **TRC20** network when sending USDT. Sending via the wrong network may result in permanent loss of funds.
 
