@@ -34,12 +34,6 @@ bash
 python organize_files.py
 That’s it! All files (except the script itself and subfolders) will be sorted into extension‑named folders.
 
-## 🖼️ Real-World Example
-
-Here is a visual breakdown of exactly what happens when you run the script in a messy directory.
-
-## 🖼️ Real-World Example
-
 Here is a visual breakdown of exactly what happens when you run the script in a messy directory.
 
 **Before (Chaos - files in a messy row):**
@@ -90,6 +84,7 @@ Documents/
 ├── notes.txt
 ├── another.pdf
 └── organize_files.py   (the script)
+
 After running:
 
 text
